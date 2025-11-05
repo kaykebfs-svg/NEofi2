@@ -106,3 +106,21 @@ h1 {
     text-decoration: none;
     font-family: var(--font-family-alexandria);
 }
+.section-partners{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--color-gray4);
+  padding: 40px 0px;
+}
+.section-partners h2{
+  color: var(--color-gray1);
+  font-size: var(--font-size-text1);
+  font-family: var(--font-family-alexandria);
+}
+.container-images-parters{
+    display: flex;
+    gap: 50px;
+ justify-content: center;
+}
